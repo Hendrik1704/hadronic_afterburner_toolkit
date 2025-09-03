@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
                   >> mass >> E >> px >> py >> pz
                   >> pdg >> dummy >> charge >> dummy
                   >> t_form >> dummy >> dummy >> SMASH_proc_Id >> t_fz
-                  >> pdg_mother1 >> pdg_mother2;
+                  >> pdg_mother1 >> pdg_mother2 >> dummy >> dummy;
 
             // compute the particle's last collision position
             t_fz = std::max(t_fz, t_form);
