@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
         stringstream temp1(temp_string);
         int n_particles[1];
         temp1 >> str_dummy >> str_dummy >> str_dummy >> str_dummy
-              >> n_particles[0];
+              >> str_dummy >> str_dummy >> n_particles[0];
         cout << "nev = " << nev << ", npart = " << n_particles[0] << endl;
         if (output_mode == "gz") {
             gzprintf(fp_gz, "%d \n", n_particles[0]);
